@@ -6,11 +6,11 @@
 //
 
 import UIKit
-//import RxSwift
-//import RxCocoa
+import RxSwift
+import RxCocoa
 
 public class DemoViewController: UIViewController {
-   // var disposeBag = DisposeBag()
+    var disposeBag = DisposeBag()
     
     @IBOutlet weak var btn: UIButton!
     
@@ -20,11 +20,11 @@ public class DemoViewController: UIViewController {
         // Do any additional setup after loading the view.
         internalFunc()
         
-//        btn.rx.tap.asObservable()
-//            .subscribe(onNext: {
-//                print("tap btn")
-//            })
-//            .disposed(by: self.disposeBag)
+        btn.rx.tap.asObservable()
+            .subscribe(onNext: {
+                print("tap btn")
+            })
+            .disposed(by: self.disposeBag)
     }
     
 
