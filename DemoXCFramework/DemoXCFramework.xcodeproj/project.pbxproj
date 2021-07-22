@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E932A7926A8FCF9009B643A /* demoframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E932A7726A8FCF9009B643A /* demoframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E932A7926A8FCF9009B643A /* DemoXCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E932A7726A8FCF9009B643A /* DemoXCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E932A9126A8FD89009B643A /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E932A9026A8FD89009B643A /* DemoViewController.swift */; };
 		2E932A9D26A901F5009B643A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E932A9C26A901F5009B643A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E932A7426A8FCF9009B643A /* demoframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = demoframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E932A7726A8FCF9009B643A /* demoframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demoframework.h; sourceTree = "<group>"; };
+		2E932A7426A8FCF9009B643A /* DemoXCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoXCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E932A7726A8FCF9009B643A /* DemoXCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoXCFramework.h; sourceTree = "<group>"; };
 		2E932A7826A8FCF9009B643A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E932A8026A8FD26009B643A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../rxddd/RxCocoa.framework; sourceTree = "<group>"; };
 		2E932A8126A8FD26009B643A /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = ../rxddd/RxTest.framework; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		2E932A6A26A8FCF9009B643A = {
 			isa = PBXGroup;
 			children = (
-				2E932A7626A8FCF9009B643A /* demoframework */,
+				2E932A7626A8FCF9009B643A /* DemoXCFramework */,
 				2E932A7526A8FCF9009B643A /* Products */,
 				2E932A7F26A8FD26009B643A /* Frameworks */,
 			);
@@ -48,20 +48,20 @@
 		2E932A7526A8FCF9009B643A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E932A7426A8FCF9009B643A /* demoframework.framework */,
+				2E932A7426A8FCF9009B643A /* DemoXCFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E932A7626A8FCF9009B643A /* demoframework */ = {
+		2E932A7626A8FCF9009B643A /* DemoXCFramework */ = {
 			isa = PBXGroup;
 			children = (
-				2E932A7726A8FCF9009B643A /* demoframework.h */,
+				2E932A7726A8FCF9009B643A /* DemoXCFramework.h */,
 				2E932A7826A8FCF9009B643A /* Info.plist */,
 				2E932A9026A8FD89009B643A /* DemoViewController.swift */,
 				2E932A9C26A901F5009B643A /* Main.storyboard */,
 			);
-			path = demoframework;
+			path = DemoXCFramework;
 			sourceTree = "<group>";
 		};
 		2E932A7F26A8FD26009B643A /* Frameworks */ = {
@@ -83,16 +83,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E932A7926A8FCF9009B643A /* demoframework.h in Headers */,
+				2E932A7926A8FCF9009B643A /* DemoXCFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E932A7326A8FCF9009B643A /* demoframework */ = {
+		2E932A7326A8FCF9009B643A /* DemoXCFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E932A7C26A8FCF9009B643A /* Build configuration list for PBXNativeTarget "demoframework" */;
+			buildConfigurationList = 2E932A7C26A8FCF9009B643A /* Build configuration list for PBXNativeTarget "DemoXCFramework" */;
 			buildPhases = (
 				2E932A6F26A8FCF9009B643A /* Headers */,
 				2E932A7026A8FCF9009B643A /* Sources */,
@@ -103,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = demoframework;
+			name = DemoXCFramework;
 			productName = demoframework;
-			productReference = 2E932A7426A8FCF9009B643A /* demoframework.framework */;
+			productReference = 2E932A7426A8FCF9009B643A /* DemoXCFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E932A6E26A8FCF9009B643A /* Build configuration list for PBXProject "demoframework" */;
+			buildConfigurationList = 2E932A6E26A8FCF9009B643A /* Build configuration list for PBXProject "DemoXCFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E932A7326A8FCF9009B643A /* demoframework */,
+				2E932A7326A8FCF9009B643A /* DemoXCFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -300,19 +300,20 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = demoframework/Info.plist;
+				INFOPLIST_FILE = DemoXCFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.epiens..demoframework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.epiens.demoxcframework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,25 +332,26 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = demoframework/Info.plist;
+				INFOPLIST_FILE = DemoXCFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.epiens..demoframework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.epiens.demoxcframework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E932A6E26A8FCF9009B643A /* Build configuration list for PBXProject "demoframework" */ = {
+		2E932A6E26A8FCF9009B643A /* Build configuration list for PBXProject "DemoXCFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E932A7A26A8FCF9009B643A /* Debug */,
@@ -358,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E932A7C26A8FCF9009B643A /* Build configuration list for PBXNativeTarget "demoframework" */ = {
+		2E932A7C26A8FCF9009B643A /* Build configuration list for PBXNativeTarget "DemoXCFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E932A7D26A8FCF9009B643A /* Debug */,
