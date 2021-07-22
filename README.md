@@ -9,5 +9,6 @@ xcodebuild -create-xcframework -framework './build/demoframework.framework-iphon
 ## 3. xcframework 파일을 Swift Package Manager에 포함시켜 배포한다.
 
 ## 4.참조
-https://www.raywenderlich.com/17753301-creating-a-framework-for-ios
-https://learn-hyeoni.tistory.com/55
+
+### 1) https://www.raywenderlich.com/17753301-creating-a-framework-for-ios
+### 2) https://learn-hyeoni.tistory.com/55
