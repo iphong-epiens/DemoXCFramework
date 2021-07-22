@@ -12,7 +12,7 @@ SKIP_INSTALL=NO \
 BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 ~~~
 
-## 2. iOS Simulator Framework로 아카이브 -> Build 디렉토리에 xcarchive 생성됨
+## 2. iOS Simulator Framework로 아카이브 -> Build 디렉토리에 xcarchive 생성됨 (Optional)
 
 ~~~
 xcodebuild archive \
@@ -28,11 +28,14 @@ BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
 ~~~
 xcodebuild -create-xcframework \
--framework './build/DemoXCFramework.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/DemoXCFramework.framework' \
 -framework './build/DemoXCFramework.framework-iphoneos.xcarchive/Products/Library/Frameworks/DemoXCFramework.framework' \
 -output './build/DemoXCFramework.xcframework'
 ~~~
 
+### iOS Simulator Framework도 xcframework 포함할 경우 아래 명령을 iOS 생성 명령 아래에 추가한다.
+~~~
+-framework './build/DemoXCFramework.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/DemoXCFramework.framework' \
+~~~
 
 ## 4. xcframework 파일을 Swift Package Manager에 포함시켜 배포한다.
 
